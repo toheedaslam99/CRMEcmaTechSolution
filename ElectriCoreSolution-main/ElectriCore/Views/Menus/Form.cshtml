@@ -1,0 +1,270 @@
+﻿@model Menus
+@using static ElectriCore.Helpers.ApplicationHelper;
+@section InLineScriptSection
+{
+    <script type="text/javascript">
+        @if (ViewBag.PageType == EnumPageType.View)
+        {
+            @:DisableView();
+        }
+        let Counter = @Model.MenuPermissions.Count() > 0 ? @Model.MenuPermissions.Count() : 0;
+        function AddPermission()
+        {
+            var form = $('#formPermission');
+            form.parsley().validate();
+            if (!form.parsley().isValid()) {
+                return false;
+            }
+            else
+            {
+                let Name = $('#PermissionName').val();
+                let Type = $('#PermissionType').val();
+                let Sequence = $('#PermissionSequence').val();
+                let tableRow = `<tr id='CurrentRow_${Counter}'>`;
+                tableRow += `<td>${Name}<input type="hidden" name="MenuPermissions[${Counter}].Name" value="${Name}" /></td>`;
+                tableRow += `<td>${Type}<input type="hidden" name="MenuPermissions[${Counter}].Type" value="${Type}" /></td>`;
+                tableRow += `<td>${Sequence}<input type="hidden" name="MenuPermissions[${Counter}].SequenceOrder" value="${Sequence}" /></td>`;
+                tableRow += `<td>@DateTime.Now.ToString("dd-MMM-yyyy")</td>`;
+                tableRow += `<td></td>`;
+                tableRow += `<td>`;
+                tableRow += `<div class="btn-group">`;
+                tableRow += `<button type="button" class="btn btn-primary btn-sm" onclick="GetPermissionRecord($('#CurrentRow_' + ${Counter}), "View")"><i class="fa fa-eye"></i></button>`;
+                tableRow += `<button type="button" class="btn btn-success btn-sm" onclick="GetPermissionRecord($('#CurrentRow_' + ${Counter}), "Edit")"><i class="fa fa-edit"></i></button>`;
+                tableRow += `<button type="button" class="btn btn-danger btn-sm" onclick="DeleteRow($('#CurrentRow_' + ${Counter}))"><i class="fa fa-trash"></i></button>`;
+                tableRow += `</div>`;
+                tableRow += `</td>`;
+                tableRow += `</tr>`;
+                $('#TableMenuPermissions tbody').append(tableRow);
+                Counter ++;
+                ResetPermission();
+            }
+        }
+        function ResetPermission()
+        {
+            let form = $('#formPermission')
+            $(form).parsley().reset();
+            EmptyFields();
+        }
+        function EmptyFields()
+        {
+            $("#PermissionName").val('').trigger('change')
+            $("#PermissionType").val('').trigger('change')
+            //$('#PermissionName').val('');
+            //$('#PermissionType').val('');
+            $('#PermissionSequence').val('');
+        }
+        function GetPermissionRecord(CurrentRow, Action)
+        {
+            ResetPermission();
+            EnableDisableFields(Action);
+            $('#PermissionName').val($(CurrentRow).find("td:eq(0) input").val());
+            $('#PermissionType').val($(CurrentRow).find("td:eq(1) input").val());
+            $('#PermissionSequence').val($(CurrentRow).find("td:eq(2) input").val());
+            $('#menuPermissionModal').modal('show');
+        }
+        function DeleteRow(CurrentRow)
+        {
+            if (confirm("Are you sure want to remove this record"))
+            {
+                $(CurrentRow).remove();
+            }
+            else
+            {
+                return false;
+            }
+        }
+        function EnableDisableFields(Action)
+        {
+            switch(Action)
+            {
+                case "View":
+                    $('#PermissionName').attr("disabled", true);
+                    $('#PermissionType').attr("disabled", true);
+                    $('#PermissionSequence').attr("disabled", true);
+                    $('#btnPermissionAdd').hide();
+                break;
+                case "Edit":
+                    $('#PermissionName').attr("disabled", false);
+                    $('#PermissionType').attr("disabled", false);
+                    $('#PermissionSequence').attr("disabled", false);
+                    $('#btnPermissionAdd').show();
+                break;
+                default:
+                    $('#PermissionName').attr("disabled", false);
+                    $('#PermissionType').attr("disabled", false);
+                    $('#PermissionSequence').attr("disabled", false);
+                    $('#btnPermissionAdd').show();
+                break;
+            }
+        }
+    </script>
+}
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <form asp-controller="@ViewBag.ControllerURL" asp-action="save"
+            data-ajax-begin="onFormSubmitBegin" data-ajax-complete="onFormSubmitComplete"
+            data-ajax-failure="onFormFailure" data-ajax-success="onFormSuccess" autocomplete="off"
+            data-ajax="true" data-ajax-method="POST">
+                <input asp-for="Id" hidden />
+                <input asp-for="CreatedDateTime" hidden />
+                <input asp-for="CreatedBy" hidden />
+                <div class="row">
+                    <div class="form-group col-md-4 mt-0">
+                        <label asp-for="ParentId" class="form-control-label">Parent <span class="text-danger">*</span></label>
+                        <select asp-for="ParentId" class="form-control" data-plugin="select2" data-placeholder="Select a Parent">
+                            <option value="">Select</option>
+                            @if (ViewBag.Menus != null)
+                            {
+                                foreach (var rec in ViewBag.Menus)
+                                {
+                                    <option value="@rec.Id">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="ParentId" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4 mt-0">
+                        <label asp-for="Name" class="form-control-label">Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" asp-for="Name" placeholder="Name">
+                        <span asp-validation-for="Name" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4 mt-0">
+                        <label asp-for="Type" class="form-control-label">Type <span class="text-danger">*</span></label>
+                        <select class="form-control" asp-for="Type">
+                            <option value="Both">Both</option>
+                            <option value="Admin">Admin</option>
+                            <option value="Employee">Employee</option>
+                        </select>
+                        <span asp-validation-for="Type" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4 mt-0">
+                        <label asp-for="Icon" class="form-control-label">Icon <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" asp-for="Icon" placeholder="Icon">
+                        <span asp-validation-for="Icon" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4 mt-0">
+                        <label asp-for="AccessUrl" class="form-control-label">Access Url <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" asp-for="AccessUrl" placeholder="Access Url">
+                        <span asp-validation-for="AccessUrl" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4 mt-0">
+                        <label asp-for="SequenceOrder" class="form-control-label">Sequence Order <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" asp-for="SequenceOrder" placeholder="Icon">
+                        <span asp-validation-for="SequenceOrder" class="text-danger pull-left"></span>
+                    </div>
+                </div>
+                <div class="row mt-48">
+                    <div class="col-md-12 mb-4">
+                        <div class="card text-left">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h4>Menu Permissions</h4>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#menuPermissionModal" onclick="ResetPermission();EnableDisableFields();">Add Menu Permissions</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-striped" id="TableMenuPermissions">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                @*<th>Parent Type</th>*@
+                                                <th>Type</th>
+                                                <th>Sequence</th>
+                                                <th>Created Date</th>
+                                                <th>Updated Date</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @if(Model.MenuPermissions.Count > 0)
+                                            {
+                                                int Index = 0;
+                                                foreach(var item in Model.MenuPermissions)
+                                                {
+                                                    <tr id="CurrentRow_@Index">
+                                                        <td>@item.Name<input type="hidden" name="MenuPermissions[@Index].Name" value="@item.Name" /></td>
+                                                        <td>@item.Type<input type="hidden" name="MenuPermissions[@Index].Type" value="@item.Type" /></td>
+                                                        <td>@item.SequenceOrder<input type="hidden" name="MenuPermissions[@Index].SequenceOrder" value="@item.SequenceOrder" /></td>
+                                                        <td>@item.CreatedDateTime.ToString("dd-MMM-yyyy")<input type="hidden" name="MenuPermissions[@Index].CreatedDateTime" /></td>
+                                                        <td>@(item.UpdatedDateTime != null ? item.UpdatedDateTime.Value.ToString("dd-MMM-yyyy") : "")</td>
+                                                        <td>
+                                                            <div class="btn-group">
+                                                                <button type="button" class="btn btn-primary btn-sm" onclick="GetPermissionRecord($('#CurrentRow_@Index'), 'View')"><i class="fa fa-eye"></i></button>
+                                                                <button type="button" class="btn btn-success btn-sm" onclick="GetPermissionRecord($('#CurrentRow_@Index'), 'Edit')"><i class="fa fa-edit"></i></button>
+                                                                <button type="button" class="btn btn-danger btn-sm" onclick="DeleteRow($('#CurrentRow_@Index'))"><i class="fa fa-trash"></i></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    Index++;
+                                                }
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group text-right">
+                    @if (ViewBag.PageType != EnumPageType.View)
+                    {
+                        <button class="btn btn-primary" type="submit">Save</button>
+                    }
+                    <a id="@(ViewBag.PageType != "View" ? "btnCancel" : "btnView")" class="btn btn-secondary" href="/@ViewBag.ControllerURL">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="menuPermissionModal" tabindex="-1" role="dialog" aria-labelledby="menuPermissionModalTitle" aria-hidden="true" data-backdrop="false">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Menu Permission</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form id="formPermission" novalidate>
+        <div class="modal-body">
+          <div class="row">
+              <div class="form-group col-md-6 mt-0">
+                <label for="PermissionName" class="form-control-label">Name <span class="text-danger">*</span></label>
+                <select id="PermissionName" class="form-control" data-plugin="select2" data-placeholder="Select a Parent" tabindex="1" required data-parsley-error-message="Required">
+                    <option value="">Select</option>
+                    <option value="None">None</option>
+                    <option value="All">All</option>
+                    <option value="Add">Add</option>
+                    <option value="Edit">Edit</option>
+                    <option value="Delete">Delete</option>
+                    <option value="View">View</option>
+                </select>
+            </div>
+            <div class="form-group col-md-6 mt-0">
+                <label for="PermissionType" class="form-control-label">Type <span class="text-danger">*</span></label>
+                <select id="PermissionType" class="form-control" data-plugin="select2" data-placeholder="Select a Parent" tabindex="1" required data-parsley-error-message="Required">
+                    <option value="">Select</option>
+                    <option value="R">R</option>
+                    <option value="C">C</option>
+                </select>
+            </div>
+            <div class="form-group col-md-6 mt-0">
+                <label for="PermissionSequence" class="form-control-label">Sequence <span class="text-danger">*</span></label>
+                <input type="number" id="PermissionSequence" class="form-control" required data-parsley-error-message="Required" />
+            </div>
+          </div>
+      </div>
+      </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="btnPermissionAdd" onclick="AddPermission()">Add</button>
+      </div>
+    </div>
+  </div>
+</div>

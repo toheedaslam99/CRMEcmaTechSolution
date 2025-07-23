@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\CRM\Publish</_PublishTargetUrl>
+    <History>True|2025-07-21T10:58:03.3143579Z||;True|2025-07-21T15:29:59.8431176+05:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ElectriCoreConnection">
+      <Value>Server=194.233.82.253%3bInitial Catalog=electric_CRM%3bUser ID=electric_CRM%3bpassword=Incorrect321%40%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

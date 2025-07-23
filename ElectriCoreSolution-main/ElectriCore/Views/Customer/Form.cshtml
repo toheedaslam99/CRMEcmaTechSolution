@@ -1,0 +1,780 @@
+﻿@model Customer
+@using static ElectriCore.Helpers.ApplicationHelper
+@section InLineScriptSection{
+    <script type="text/javascript">
+        @if (ViewBag.PageType == EnumPageType.View)
+        {
+            @:DisableView();
+        }
+    </script>
+}
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <form asp-controller="@ViewBag.ControllerURL" asp-action="save" autocomplete="off" data-ajax-begin="onFormSubmitBegin"
+                  data-ajax-complete="onFormSubmitComplete" data-ajax-failure="onFormFailure"
+                  data-ajax-success="onFormSuccess" data-ajax="true" data-ajax-method="post" enctype="multipart/form-data">
+                <input asp-for="Id" hidden />
+                <input asp-for="CreatedBy" hidden />
+                <input asp-for="CreatedDateTime" hidden />
+                <input asp-for="CompanyId" hidden />
+                <input asp-for="LeadId" hidden />
+                <div class="row">
+                    <div class="form-group col-md-2">
+                        <label asp-for="Name">First Name <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="LastName">Last Name <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="LastName" class="form-control" />
+                        <span asp-validation-for="LastName" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="HomePhone">Home Phone <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="HomePhone" class="form-control" />
+                        <span asp-validation-for="HomePhone" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="MobileNo">Mobile No <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="MobileNo" class="form-control" />
+                        <span asp-validation-for="MobileNo" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="OtherPhone">OtherPhone <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="OtherPhone" class="form-control" />
+                        <span asp-validation-for="OtherPhone" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="SSN">Social Security No <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="SSN" class="form-control" />
+                        <span asp-validation-for="SSN" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="Medicare">Medicare <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="Medicare" class="form-control" />
+                        <span asp-validation-for="Medicare" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="DOB">Date of Birth <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="DOB" class="form-control" />
+                        <span asp-validation-for="DOB" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="Email">Email <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="SecondaryEmail">Secondary Email <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="SecondaryEmail" class="form-control" />
+                        <span asp-validation-for="SecondaryEmail" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="CountryId">Country <span class="text-danger">*</span></label>
+                        <select asp-for="CountryId" class="form-control">
+                            @if (ViewBag.country != null)
+                            {
+                                foreach (var rec in ViewBag.country)
+                                {
+                                    <option value="@rec.Id">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="CountryId" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="StateId">State <span class="text-danger">*</span></label>
+                        <select asp-for="StateId" class="form-control">
+                            @if (ViewBag.states != null)
+                            {
+                                foreach (var rec in ViewBag.states)
+                                {
+                                    <option value="@rec.Name">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="StateId" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="City">City <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="City" class="form-control" />
+                        <span asp-validation-for="City" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="ZipCode">Zip Code <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="ZipCode" class="form-control" />
+                        <span asp-validation-for="ZipCode" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-8">
+                        <label asp-for="Address">Address <span class="text-danger">*</span></label>
+                        <textarea type="text" asp-for="Address" rows="1" class="form-control" ></textarea>
+                        <span asp-validation-for="Address" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="AgentId">Agent <span class="text-danger">*</span></label>
+                        <select asp-for="AgentId" class="form-control">
+                            @if (ViewBag.user != null)
+                            {
+                                foreach (var rec in ViewBag.user)
+                                {
+                                    <option value="@rec.Id">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="AgentId" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="CloserId">Closer <span class="text-danger">*</span></label>
+                        <select asp-for="CloserId" class="form-control">
+                            @if (ViewBag.user != null)
+                            {
+                                foreach (var rec in ViewBag.user)
+                                {
+                                    <option value="@rec.Id">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="CloserId" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="LeadStatus">Lead Status <span class="text-danger">*</span></label>
+                        <select asp-for="LeadStatus" class="form-control">
+                            <option value="Active">Active</option>
+                            <option value="In-Active">In-Active</option>
+                            <option value="Pending">Pending</option>
+                            <option value="Call Back">Call Back</option>
+                            <option value="Complete">Complete</option>
+                        </select>
+                        <span asp-validation-for="LeadStatus" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="Description">Description <span class="text-danger">*</span></label>
+                        <textarea type="text" asp-for="Description" class="form-control"></textarea>
+                        <span asp-validation-for="Description" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="col-md-12 mb-4">
+                        <div class="card text-left">
+                            <div class="card-body">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="home-basic-tab" data-toggle="tab" href="#homeBasic" role="tab" aria-controls="homeBasic" aria-selected="true">Mailing Address</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="profile-basic-tab" data-toggle="tab" href="#profileBasic" role="tab" aria-controls="profileBasic" aria-selected="false">Cards Informations</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-basic-tab" data-toggle="tab" href="#contactBasic" role="tab" aria-controls="contactBasic" aria-selected="false">Checking Account Informations</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="homeBasic" role="tabpanel" aria-labelledby="home-basic-tab">
+                                        <div class="row">
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="MailingCountryId">Mailing Country <span class="text-danger">*</span></label>
+                                                <select asp-for="MailingCountryId" class="form-control">
+                                                    @if (ViewBag.country != null)
+                                                    {
+                                                        foreach (var rec in ViewBag.country)
+                                                        {
+                                                            <option value="@rec.Id">@rec.Name</option>
+                                                        }
+                                                    }
+                                                </select>
+                                                <span asp-validation-for="MailingCountryId" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="MailingStateId">Mailing State <span class="text-danger">*</span></label>
+                                                <select asp-for="MailingStateId" class="form-control">
+                                                    @if (ViewBag.states != null)
+                                                    {
+                                                        foreach (var rec in ViewBag.states)
+                                                        {
+                                                            <option value="@rec.Name">@rec.Name</option>
+                                                        }
+                                                    }
+                                                </select>
+                                                <span asp-validation-for="MailingStateId" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="MailingCity">Mailing City <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="MailingCity" class="form-control" />
+                                                <span asp-validation-for="MailingCity" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="MailingZipCode">Mailing Zip Code <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="MailingZipCode" class="form-control" />
+                                                <span asp-validation-for="MailingZipCode" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-4">
+                                                <label asp-for="MailingAddress">Mailing Address <span class="text-danger">*</span></label>
+                                                <textarea type="text" asp-for="MailingAddress" class="form-control" ></textarea>
+                                                <span asp-validation-for="MailingAddress" class="text-danger pull-left"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="profileBasic" role="tabpanel" aria-labelledby="profile-basic-tab">
+                                        @* Card Section Start Here *@
+                                        @* First Card Detials *@
+                                        <div class="row">
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstCardNumber">Card Number <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstCardNumber" class="form-control" />
+                                                <span asp-validation-for="FirstCardNumber" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstCardHolder">Card Holder <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstCardHolder" class="form-control" />
+                                                <span asp-validation-for="FirstCardHolder" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstCVC">CVC <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstCVC" class="form-control" />
+                                                <span asp-validation-for="FirstCVC" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstExpireDate">Expire Date <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstExpireDate" class="form-control" />
+                                                <span asp-validation-for="FirstExpireDate" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstATMPIN">ATM PIN <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstATMPIN" class="form-control" />
+                                                <span asp-validation-for="FirstATMPIN" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstBank">Bank <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstBank" class="form-control" />
+                                                <span asp-validation-for="FirstBank" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstCard">Card <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstCard" class="form-control" />
+                                                <span asp-validation-for="FirstCard" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstCardType">Card Type <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstCardType" class="form-control" />
+                                                <span asp-validation-for="FirstCardType" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstAvail">Available Balance <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstAvail" class="form-control" />
+                                                <span asp-validation-for="FirstAvail" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstCharge">Charge <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstCharge" class="form-control" />
+                                                <span asp-validation-for="FirstCharge" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-4">
+                                                <label asp-for="FirstDescription">Description <span class="text-danger">*</span></label>
+                                                <textarea type="text" asp-for="FirstDescription" rows="1" class="form-control"></textarea>
+                                                <span asp-validation-for="FirstDescription" class="text-danger pull-left"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mb-4">
+                                            <div class="card text-left">
+                                                <div class="card-body">
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link active" id="C2-basic-tab" data-toggle="tab" href="#C2" role="tab" aria-controls="C2" aria-selected="true">Secondary Card Information</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="C3-basic-tab" data-toggle="tab" href="#C3" role="tab" aria-controls="C3" aria-selected="false">Third Card Information</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="C4-basic-tab" data-toggle="tab" href="#C4" role="tab" aria-controls="C4" aria-selected="false">Fourth Card Information</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="C5-basic-tab" data-toggle="tab" href="#C5" role="tab" aria-controls="C5" aria-selected="false">Fifth Card Information</a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content" id="myTabContent">
+                                                        <div class="tab-pane fade show active" id="C2" role="tabpanel" aria-labelledby="C2-basic-tab">
+                                                            @* Second Card Detials *@
+                                                            <div class="row">
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondCardNumber">Card Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondCardNumber" class="form-control" />
+                                                                    <span asp-validation-for="SecondCardNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondCardHolder">Card Holder <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondCardHolder" class="form-control" />
+                                                                    <span asp-validation-for="SecondCardHolder" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondCVC">CVC <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondCVC" class="form-control" />
+                                                                    <span asp-validation-for="SecondCVC" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondExpireDate">Expire Date <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondExpireDate" class="form-control" />
+                                                                    <span asp-validation-for="SecondExpireDate" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondATMPIN">ATM PIN <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondATMPIN" class="form-control" />
+                                                                    <span asp-validation-for="SecondATMPIN" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondBank">Bank <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondBank" class="form-control" />
+                                                                    <span asp-validation-for="SecondBank" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondCard">Card <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondCard" class="form-control" />
+                                                                    <span asp-validation-for="SecondCard" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondCardType">Card Type <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondCardType" class="form-control" />
+                                                                    <span asp-validation-for="SecondCardType" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondAvail">Available Balance <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondAvail" class="form-control" />
+                                                                    <span asp-validation-for="SecondAvail" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondCharge">Charge <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondCharge" class="form-control" />
+                                                                    <span asp-validation-for="SecondCharge" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-4">
+                                                                    <label asp-for="SecondDescription">Description <span class="text-danger">*</span></label>
+                                                                    <textarea type="text" asp-for="SecondDescription" rows="1" class="form-control"></textarea>
+                                                                    <span asp-validation-for="SecondDescription" class="text-danger pull-left"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="C3" role="tabpanel" aria-labelledby="C3-basic-tab">
+                                                            @* Third Card Detials *@
+                                                            <div class="row">
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdCardNumber">Card Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdCardNumber" class="form-control" />
+                                                                    <span asp-validation-for="ThirdCardNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdCardHolder">Card Holder <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdCardHolder" class="form-control" />
+                                                                    <span asp-validation-for="ThirdCardHolder" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdCVC">CVC <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdCVC" class="form-control" />
+                                                                    <span asp-validation-for="ThirdCVC" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdExpireDate">Expire Date <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdExpireDate" class="form-control" />
+                                                                    <span asp-validation-for="ThirdExpireDate" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdATMPIN">ATM PIN <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdATMPIN" class="form-control" />
+                                                                    <span asp-validation-for="ThirdATMPIN" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdBank">Bank <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdBank" class="form-control" />
+                                                                    <span asp-validation-for="ThirdBank" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdCard">Card <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdCard" class="form-control" />
+                                                                    <span asp-validation-for="ThirdCard" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdCardType">Card Type <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdCardType" class="form-control" />
+                                                                    <span asp-validation-for="ThirdCardType" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdAvail">Available Balance <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdAvail" class="form-control" />
+                                                                    <span asp-validation-for="ThirdAvail" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdCharge">Charge <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdCharge" class="form-control" />
+                                                                    <span asp-validation-for="ThirdCharge" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-4">
+                                                                    <label asp-for="ThirdDescription">Description <span class="text-danger">*</span></label>
+                                                                    <textarea type="text" asp-for="ThirdDescription" rows="1" class="form-control"></textarea>
+                                                                    <span asp-validation-for="ThirdDescription" class="text-danger pull-left"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="C4" role="tabpanel" aria-labelledby="C4-basic-tab">
+                                                            @* Fourth Card Detials *@
+                                                            <div class="row">
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthCardNumber">Card Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthCardNumber" class="form-control" />
+                                                                    <span asp-validation-for="FourthCardNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthCardHolder">Card Holder <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthCardHolder" class="form-control" />
+                                                                    <span asp-validation-for="FourthCardHolder" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthCVC">CVC <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthCVC" class="form-control" />
+                                                                    <span asp-validation-for="FourthCVC" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthExpireDate">Expire Date <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthExpireDate" class="form-control" />
+                                                                    <span asp-validation-for="FourthExpireDate" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthATMPIN">ATM PIN <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthATMPIN" class="form-control" />
+                                                                    <span asp-validation-for="FourthATMPIN" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthBank">Bank <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthBank" class="form-control" />
+                                                                    <span asp-validation-for="FourthBank" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthCard">Card <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthCard" class="form-control" />
+                                                                    <span asp-validation-for="FourthCard" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthCardType">Card Type <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthCardType" class="form-control" />
+                                                                    <span asp-validation-for="FourthCardType" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthAvail">Available Balance <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthAvail" class="form-control" />
+                                                                    <span asp-validation-for="FourthAvail" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthCharge">Charge <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthCharge" class="form-control" />
+                                                                    <span asp-validation-for="FourthCharge" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-4">
+                                                                    <label asp-for="FourthDescription">Description <span class="text-danger">*</span></label>
+                                                                    <textarea type="text" asp-for="FourthDescription" rows="1" class="form-control"></textarea>
+                                                                    <span asp-validation-for="FourthDescription" class="text-danger pull-left"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="C5" role="tabpanel" aria-labelledby="C5-basic-tab">
+                                                            <div class="row">
+                                                                @* Fifth Card Detials *@
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthCardNumber">Card Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthCardNumber" class="form-control" />
+                                                                    <span asp-validation-for="FifthCardNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthCardHolder">Card Holder <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthCardHolder" class="form-control" />
+                                                                    <span asp-validation-for="FifthCardHolder" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthCVC">CVC <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthCVC" class="form-control" />
+                                                                    <span asp-validation-for="FifthCVC" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthExpireDate">Expire Date <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthExpireDate" class="form-control" />
+                                                                    <span asp-validation-for="FifthExpireDate" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthATMPIN">ATM PIN <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthATMPIN" class="form-control" />
+                                                                    <span asp-validation-for="FifthATMPIN" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthBank">Bank <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthBank" class="form-control" />
+                                                                    <span asp-validation-for="FifthBank" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthCard">Card <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthCard" class="form-control" />
+                                                                    <span asp-validation-for="FifthCard" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthCardType">Card Type <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthCardType" class="form-control" />
+                                                                    <span asp-validation-for="FifthCardType" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthAvail">Available Balance <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthAvail" class="form-control" />
+                                                                    <span asp-validation-for="FifthAvail" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthCharge">Charge <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthCharge" class="form-control" />
+                                                                    <span asp-validation-for="FifthCharge" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-4">
+                                                                    <label asp-for="FifthDescription">Description <span class="text-danger">*</span></label>
+                                                                    <textarea type="text" asp-for="FifthDescription" rows="1" class="form-control"></textarea>
+                                                                    <span asp-validation-for="FifthDescription" class="text-danger pull-left"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end of col -->
+                                        @* Card Section End Here *@
+                                    </div>
+                                    <div class="tab-pane fade" id="contactBasic" role="tabpanel" aria-labelledby="contact-basic-tab">
+                                        @* Checking Section Start Here *@
+                                        <div class="row">
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstAccountNumber">Account Number <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstAccountNumber" class="form-control" />
+                                                <span asp-validation-for="FirstAccountNumber" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstRoutingNumber">Routing Number <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstRoutingNumber" class="form-control" />
+                                                <span asp-validation-for="FirstRoutingNumber" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstCheckingNumber">Checking Number <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstCheckingNumber" class="form-control" />
+                                                <span asp-validation-for="FirstCheckingNumber" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstCheckingBank">Bank <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstCheckingBank" class="form-control" />
+                                                <span asp-validation-for="FirstCheckingBank" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstCheckingAvail">Available Balance <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstCheckingAvail" class="form-control" />
+                                                <span asp-validation-for="FirstCheckingAvail" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label asp-for="FirstCheckingCharge">Charge <span class="text-danger">*</span></label>
+                                                <input type="text" asp-for="FirstCheckingCharge" class="form-control" />
+                                                <span asp-validation-for="FirstCheckingCharge" class="text-danger pull-left"></span>
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <label asp-for="FirstCheckingDescription">Description <span class="text-danger">*</span></label>
+                                                <textarea type="text" asp-for="FirstCheckingDescription" class="form-control" ></textarea>
+                                                <span asp-validation-for="FirstCheckingDescription" class="text-danger pull-left"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mb-4">
+                                            <div class="card text-left">
+                                                <div class="card-body">
+                                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link active" id="A2-basic-tab" data-toggle="tab" href="#A2" role="tab" aria-controls="A2" aria-selected="true">Secondary Account Information</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="A3-basic-tab" data-toggle="tab" href="#A3" role="tab" aria-controls="A3" aria-selected="false">Third Account Information</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="A4-basic-tab" data-toggle="tab" href="#A4" role="tab" aria-controls="A4" aria-selected="false">Fourth Account Information</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" id="A5-basic-tab" data-toggle="tab" href="#A5" role="tab" aria-controls="A5" aria-selected="false">Fifth Account Information</a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content" id="myTabContent">
+                                                        <div class="tab-pane fade show active" id="A2" role="tabpanel" aria-labelledby="A2-basic-tab">
+                                                            <div class="row">
+                                                                @* Second Checking *@
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondAccountNumber">Account Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondAccountNumber" class="form-control" />
+                                                                    <span asp-validation-for="SecondAccountNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondRoutingNumber">Routing Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondRoutingNumber" class="form-control" />
+                                                                    <span asp-validation-for="SecondRoutingNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondCheckingNumber">Checking Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondCheckingNumber" class="form-control" />
+                                                                    <span asp-validation-for="SecondCheckingNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondCheckingBank">Bank <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondCheckingBank" class="form-control" />
+                                                                    <span asp-validation-for="SecondCheckingBank" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondCheckingAvail">Available Balance <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondCheckingAvail" class="form-control" />
+                                                                    <span asp-validation-for="SecondCheckingAvail" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="SecondCheckingCharge">Charge <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="SecondCheckingCharge" class="form-control" />
+                                                                    <span asp-validation-for="SecondCheckingCharge" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-12">
+                                                                    <label asp-for="SecondCheckingDescription">Description <span class="text-danger">*</span></label>
+                                                                    <textarea type="text" asp-for="SecondCheckingDescription" class="form-control"></textarea>
+                                                                    <span asp-validation-for="SecondCheckingDescription" class="text-danger pull-left"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="A3" role="tabpanel" aria-labelledby="A3-basic-tab">
+                                                            <div class="row">
+                                                                @* Third Checking *@
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdAccountNumber">Account Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdAccountNumber" class="form-control" />
+                                                                    <span asp-validation-for="ThirdAccountNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdRoutingNumber">Routing Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdRoutingNumber" class="form-control" />
+                                                                    <span asp-validation-for="ThirdRoutingNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdCheckingNumber">Checking Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdCheckingNumber" class="form-control" />
+                                                                    <span asp-validation-for="ThirdCheckingNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdCheckingBank">Bank <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdCheckingBank" class="form-control" />
+                                                                    <span asp-validation-for="ThirdCheckingBank" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdCheckingAvail">Available Balance <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdCheckingAvail" class="form-control" />
+                                                                    <span asp-validation-for="ThirdCheckingAvail" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="ThirdCheckingCharge">Charge <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="ThirdCheckingCharge" class="form-control" />
+                                                                    <span asp-validation-for="ThirdCheckingCharge" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-12">
+                                                                    <label asp-for="ThirdCheckingDescription">Description <span class="text-danger">*</span></label>
+                                                                    <textarea type="text" asp-for="ThirdCheckingDescription" class="form-control" ></textarea>
+                                                                    <span asp-validation-for="ThirdCheckingDescription" class="text-danger pull-left"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="A4" role="tabpanel" aria-labelledby="A4-basic-tab">
+                                                            <div class="row">
+                                                                @* Fourth Checking *@
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthAccountNumber">Account Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthAccountNumber" class="form-control" />
+                                                                    <span asp-validation-for="FourthAccountNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthRoutingNumber">Routing Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthRoutingNumber" class="form-control" />
+                                                                    <span asp-validation-for="FourthRoutingNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthCheckingNumber">Checking Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthCheckingNumber" class="form-control" />
+                                                                    <span asp-validation-for="FourthCheckingNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthCheckingBank">Bank <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthCheckingBank" class="form-control" />
+                                                                    <span asp-validation-for="FourthCheckingBank" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthCheckingAvail">Available Balance <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthCheckingAvail" class="form-control" />
+                                                                    <span asp-validation-for="FourthCheckingAvail" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FourthCheckingCharge">Charge <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FourthCheckingCharge" class="form-control" />
+                                                                    <span asp-validation-for="FourthCheckingCharge" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-12">
+                                                                    <label asp-for="FourthCheckingDescription">Description <span class="text-danger">*</span></label>
+                                                                    <textarea type="text" asp-for="FourthCheckingDescription" class="form-control" ></textarea>
+                                                                    <span asp-validation-for="FourthCheckingDescription" class="text-danger pull-left"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="A5" role="tabpanel" aria-labelledby="A5-basic-tab">
+                                                            <div class="row">
+                                                                @* Fifth Checking *@
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthAccountNumber">Account Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthAccountNumber" class="form-control" />
+                                                                    <span asp-validation-for="FifthAccountNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthRoutingNumber">Routing Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthRoutingNumber" class="form-control" />
+                                                                    <span asp-validation-for="FifthRoutingNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthCheckingNumber">Checking Number <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthCheckingNumber" class="form-control" />
+                                                                    <span asp-validation-for="FifthCheckingNumber" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthCheckingBank">Bank <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthCheckingBank" class="form-control" />
+                                                                    <span asp-validation-for="FifthCheckingBank" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthCheckingAvail">Available Balance <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthCheckingAvail" class="form-control" />
+                                                                    <span asp-validation-for="FifthCheckingAvail" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-2">
+                                                                    <label asp-for="FifthCheckingCharge">Charge <span class="text-danger">*</span></label>
+                                                                    <input type="text" asp-for="FifthCheckingCharge" class="form-control" />
+                                                                    <span asp-validation-for="FifthCheckingCharge" class="text-danger pull-left"></span>
+                                                                </div>
+                                                                <div class="form-group col-md-12">
+                                                                    <label asp-for="FifthCheckingDescription">Description <span class="text-danger">*</span></label>
+                                                                    <textarea type="text" asp-for="FifthCheckingDescription" class="form-control" ></textarea>
+                                                                    <span asp-validation-for="FifthCheckingDescription" class="text-danger pull-left"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        @* Checking Section End Here *@
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of col -->
+                </div>
+                <div class="form-group text-right">
+                    @if (ViewBag.PageType != EnumPageType.View)
+                    {
+                        <button class="btn btn-primary" type="submit">Save</button>
+                    }
+                    <a id="@(ViewBag.PageType != "View" ? "btnCancel" : "btnView")" class="btn btn-secondary" href="/@ViewBag.ControllerURL">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,145 @@
+﻿@model ChartOfAccounts
+@using static ElectriCore.Helpers.ApplicationHelper
+@section InLineScriptSection
+{
+    <script>
+        $(function () {
+            $('.treeview').on('changed.jstree', function (e, data) {
+                var i, j;
+                var selectedItems = [];
+                for(i = 0, j = data.selected.length; i < j; i++) {
+                    var id = data.selected[i];
+                    if(id.indexOf('-') != -1){
+                        id = id.split("-")[1];
+                    }
+                    selectedItems.push({
+                        text: data.instance.get_node(data.selected[i]).text,
+                        id: id,
+                        parent: data.node.parents[0]
+                    });
+                }
+                $('#selectedItems').val(JSON.stringify(selectedItems));
+            }).jstree({
+                "ui": {
+                    "select_limit": 90,
+                    "select_multiple_modifier": "alt",
+                    "selected_parent_close": "select_parent",
+                    "initially_select": ["phtml_2"]
+                },
+                "core": {
+                    "themes": {
+                        "variant": "large"
+                    },
+                    "data": @Html.Raw(ViewBag.Json)},
+                //"checkbox": {
+                //    "keep_selected_style": false
+                //},
+                "plugins": ["wholerow", /*"checkbox",*/ "search"],
+                "search": {
+                    "case_sensitive": false,
+                    "show_only_matches": true
+                },
+            });
+        });
+        $("#treeSearch").keyup(function () {
+            var searchString = $(this).val();
+            $('.treeview').jstree('search', searchString);
+        });
+        $(".treeview").on("select_node.jstree",
+            function (evt, data) {
+                var SelectedNodeData = data.node;
+                GetRecord(SelectedNodeData.id);
+                $('#chartOfAccountForm').show();
+                console.log(SelectedNodeData);
+                $('#ParentId').val('');
+                if (SelectedNodeData.parent == '#') {
+                    $('#ParentId').val(SelectedNodeData.id);
+                }
+                if (SelectedNodeData.parent != "#") {
+                    $('#ParentId').val(SelectedNodeData.id);
+                }
+            }
+        );
+        function GetRecord(Id) {
+            $('#btnAddNewChild').attr('disabled', false);
+            $.ajax({
+                url: "@ViewBag.PageURL/GetRecord?Id=" + Id,
+                type: "Get",
+                success: function (response) {
+                    $('#Id').val(response.id);
+                    $('#ParentId').val(response.parentId);
+                    $('#CreatedBy').val(response.createdBy);
+                    $('#Name').val(response.name);
+                    $('#Status').val(response.status);
+                    $('#CreatedDateTime').val(response.createdDateTime);
+                    $('#UtccreatedDateTime').val(response.utcCreatedDateTime);
+                    $('#Description').val(response.description);
+                    $('#Code').val(response.code);
+                }
+            });
+        }
+        function AddNewChild() {
+            let Id = $('#Id').val();
+            $("form")[0].reset();
+            $("form").find("input[type='hidden']").val('');
+            $('#ParentId').val(Id);
+        }
+    </script>
+}
+<div class="col-md-12 mb-4">
+    <div class="row">
+        <div class="col-md-3">
+            <input type="text" class="form-control" id="treeSearch" placeholder="Search Here.." />
+        </div>
+        <div class="col-md-9">
+            <button type="button" id="btnAddNewChild" class="btn btn-primary pull-right" disabled onclick="AddNewChild()">Add New Child</button>
+        </div>
+    </div>
+    <div class="card text-left">
+        <div class="row">
+            <div class="col-md-6 table-responsive">
+                <table class="table table-striped treeview">
+                    @*<div class="treeview"></div>*@
+                </table>
+            </div>
+            <div class="col-md-6" id="chartOfAccountForm" style="display: none">
+                <form asp-controller="@ViewBag.ControllerURL" asp-action="save" autocomplete="off" data-ajax-begin="onFormSubmitBegin"
+                      data-ajax-complete="onFormSubmitComplete" data-ajax-failure="onFormFailure"
+                      data-ajax-success="onFormSuccess" data-ajax="true" data-ajax-method="post" enctype="multipart/form-data">
+                    <input asp-for="Id" type="hidden" />
+                    <input asp-for="CreatedBy" type="hidden" />
+                    <input asp-for="CreatedDateTime" type="hidden" />
+                    <input asp-for="ParentId" type="hidden" />
+                    <input asp-for="Code" type="hidden" />
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            <label asp-for="Name">Name <span class="text-danger">*</span></label>
+                            <input type="text" asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger pull-left"></span>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label asp-for="Status">Status <span class="text-danger">*</span></label>
+                            <select asp-for="Status" class="form-control">
+                                <option value="">Select</option>
+                                <option value="Enable">Enable</option>
+                                <option value="Disable">Disable</option>
+                            </select>
+                            <span asp-validation-for="Status" class="text-danger pull-left"></span>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label asp-for="Description">Description <span class="text-danger">*</span></label>
+                            <textarea asp-for="Description" class="form-control"></textarea>
+                            <span asp-validation-for="Name" class="text-danger pull-left"></span>
+                        </div>
+                    </div>
+                    <div class="form-group text-right">
+                        @if (ViewBag.PageType != EnumPageType.View)
+                        {
+                            <button class="btn btn-primary" type="submit">Save</button>}
+                        <a id="@(ViewBag.PageType != "View" ? "btnCancel" : "btnView")" class="btn btn-secondary" href="/@ViewBag.ControllerURL">Back</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,88 @@
+﻿@model Users
+@using static ElectriCore.Helpers.ApplicationHelper
+@section InLineScriptSection{
+    <script type="text/javascript">
+        @if (ViewBag.PageType == EnumPageType.View)
+        {
+            @:DisableView();
+        }
+    </script>
+}
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <form asp-controller="@ViewBag.ControllerURL" asp-action="save" autocomplete="off" data-ajax-begin="onFormSubmitBegin"
+                  data-ajax-complete="onFormSubmitComplete" data-ajax-failure="onFormFailure"
+                  data-ajax-success="onFormSuccess" data-ajax="true" data-ajax-method="post" enctype="multipart/form-data">
+                <input asp-for="Id" hidden />
+                <input asp-for="CreatedBy" hidden />
+                <input asp-for="CreatedDateTime" hidden />
+                <input asp-for="ProfileImage" hidden />
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <label asp-for="RoleId" class="form-control-label">Role <span class="text-danger">*</span></label>
+                        <select asp-for="RoleId" class="form-control">
+                            <option value="">--Select--</option>
+                            @if (ViewBag.Roles != null)
+                            {
+                                foreach (var rec in ViewBag.Roles)
+                                {
+                                    <option value="@rec.Id">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="RoleId" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="Name">Name <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="Username">Username <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="Username" class="form-control" />
+                        <span asp-validation-for="Username" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="EmailAddress">Email Address <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="EmailAddress" class="form-control" />
+                        <span asp-validation-for="EmailAddress" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="Password">Password <span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <input class="form-control form-control" asp-for="Password" type="password" value="@(Model.Password != null ? Decrypt(Model.Password) : "")" required aria-describedby="show_loginpassword">
+                            <div class="input-group-append">
+                                <a href="javascript:;" class="input-group-text" id="show_loginpassword" onclick="ShowPassword($('#Password'),this)">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="Status" class="form-control-label">Status <span class="text-danger">*</span></label>
+                        <select asp-for="Status" class="form-control">
+                            <option value="">--Select--</option>
+                            <option value="@EnumStatus.Enable">@EnumStatus.Enable</option>
+                            <option value="@EnumStatus.Disable">@EnumStatus.Disable</option>
+                        </select>
+                        <span asp-validation-for="Status" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="Profile">Profile Image <span class="text-danger">*</span></label>
+                        <input type="file" asp-for="Profile" class="form-control" />
+                        <span asp-validation-for="Profile" class="text-danger pull-left"></span>
+                    </div>
+                </div>
+                <div class="form-group text-right">
+                    @if (ViewBag.PageType != EnumPageType.View)
+                    {
+                        <button class="btn btn-primary" type="submit">Save</button>
+                    }
+                    <a id="@(ViewBag.PageType != "View" ? "btnCancel" : "btnView")" class="btn btn-secondary" href="/@ViewBag.ControllerURL">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

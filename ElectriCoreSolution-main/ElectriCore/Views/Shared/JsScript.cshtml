@@ -1,0 +1,103 @@
+﻿
+<script>
+    $(document).ready(function () {
+        try {
+            @if (ViewBag.DataTableActionColumn != null)
+            {
+                if (ViewBag.AllowAdding != null)
+                {
+                    @:var header = `<a href="@ViewBag.PageURL/add" class="btn btn-primary pull-right">Add <i class="fa fa-plus"></i></a>`;
+                    @:$('.dataTablePageHeader').append(header);
+                }
+            }
+
+            $(".datatable").DataTable({
+            dom: '<""<"row"<"col"l><"col"B><"col"f>>>rtip',
+            "processing": true,
+            "language": {
+                processing: '<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i><span class="sr-only">Loading...</span> '
+            },
+            "serverSide": true,
+            "searchable": true,
+            "filter": true,
+            "ajax": {
+                "url": "@ViewBag.PageURL/Listener",
+                "type": "post",
+                "datatype": "json"
+            },
+            "columnDefs": [{
+                "targets": [0],
+                "visible": false,
+                "searchable": false,
+            }],
+            "columns":  [
+                @Html.Raw(ViewBag.DataTableColumns)
+            ],
+            "fnCreatedRow": function (nRow, aData, iDataIndex) {
+                @*var ActionHTML = '<div class="btn-group">';
+                ActionHTML += '<a href="@ViewBag.PageURL/view?id=' + aData.id + '" class="btn btn-primary btn-sm"><i class="fa fa-eye"></i></a>';
+                ActionHTML += '<a href="@ViewBag.PageURL/edit?id=' + aData.id + '" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></a>';
+                ActionHTML += '<button type="button" class="btn btn-danger btn-sm" onclick=Delete("' + aData.id + '")><i class="fa fa-trash"></i></button>';
+                ActionHTML += "</div>";
+                $('td:eq(@ViewBag.DataTableActionColumn)', nRow).html(ActionHTML);*@
+                @if (ViewBag.DataTableActionColumn != null)
+                {
+                    @:var ActionHTML = '<div class="btn-group">';
+                    if (ViewBag.AllowEditing != null)
+                    {
+                        @:ActionHTML += '<a href="@ViewBag.PageURL/view?id=' + aData.id + '" class="btn btn-primary btn-sm"><i class="fa fa-eye"></i></a>';
+                    }
+                    if (ViewBag.AllowEditing != null)
+                    {
+                        @:ActionHTML += '<a href="@ViewBag.PageURL/edit?id=' + aData.id + '" class="btn btn-success btn-sm"><i class="fa fa-edit"></i></a>';
+                    }
+                    if(ViewBag.AllowDeleting != null) {
+                        @:ActionHTML += '<button type="button" class="btn btn-danger btn-sm" onclick=Delete("' + aData.id + '")><i class="fa fa-trash"></i></button>';
+                    }
+                    @:ActionHTML += "</div>";
+                    @:$('td:eq(@ViewBag.DataTableActionColumn)', nRow).html(ActionHTML);
+                }
+            },
+            "lengthMenu": [[1000, 2000, 5000, 10000], [1000, 2000, 5000, 10000]]
+            });
+        }
+        catch (e) {
+            console.log(e);
+        }
+    });
+    function Delete(Id) {
+        swal({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#0CC27E',
+            cancelButtonColor: '#FF586B',
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'No, cancel!',
+            confirmButtonClass: 'btn btn-success mr-5',
+            cancelButtonClass: 'btn btn-danger',
+            buttonsStyling: false
+        }).then(function () {
+            $.ajax({
+                url: "@ViewBag.PageURL/delete",
+                type: "post",
+                data: { Id: Id },
+                success: function (response) {
+                    if (response.success) {
+                        $(".datatable").DataTable().ajax.reload();
+                        toastr.success(response.message, "Deleted Successfully", {
+                            timeOut: "5000"
+                        });
+                        //setTimeout(function () {
+                        //    window.location.reload();
+                        //}, 2000);
+                    }
+                    else {
+                        toastr.error(response.message, "Error!");
+                    }
+                }
+            });
+        });
+        }
+</script>

@@ -1,0 +1,44 @@
+﻿@model Company
+@using static ElectriCore.Helpers.ApplicationHelper
+@section InLineScriptSection{
+    <script type="text/javascript">
+        @if (ViewBag.PageType == EnumPageType.View)
+        {
+            @:DisableView();
+        }
+    </script>
+}
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <form asp-controller="@ViewBag.ControllerURL" asp-action="save" autocomplete="off" data-ajax-begin="onFormSubmitBegin"
+                  data-ajax-complete="onFormSubmitComplete" data-ajax-failure="onFormFailure"
+                  data-ajax-success="onFormSuccess" data-ajax="true" data-ajax-method="post" enctype="multipart/form-data">
+                <input asp-for="Id" hidden />
+                <input asp-for="Logo" hidden />
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label asp-for="Name">Name <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="Status">First Name <span class="text-danger">*</span></label>
+                        <select asp-for="Status" class="form-control">
+                            <option value="@EnumStatus.Enable">@EnumStatus.Enable</option>
+                            <option value="@EnumStatus.Disable">@EnumStatus.Disable</option>
+                        </select>
+                        <span asp-validation-for="Status" class="text-danger pull-left"></span>
+                    </div>
+                </div>
+                <div class="form-group text-right">
+                    @if (ViewBag.PageType != EnumPageType.View)
+                    {
+                        <button class="btn btn-primary" type="submit">Save</button>
+                    }
+                    <a id="@(ViewBag.PageType != "View" ? "btnCancel" : "btnView")" class="btn btn-secondary" href="/@ViewBag.ControllerURL">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

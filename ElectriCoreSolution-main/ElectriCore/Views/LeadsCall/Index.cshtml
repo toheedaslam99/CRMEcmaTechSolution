@@ -1,0 +1,62 @@
+﻿@model Leads
+@using static ElectriCore.Helpers.ApplicationHelper
+@section InLineScriptSection{
+    <script type="text/javascript">
+        @if (ViewBag.PageType == EnumPageType.View)
+        {
+            @:DisableView();
+        }
+    </script>
+}
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <form asp-controller="@ViewBag.ControllerURL" asp-action="Save" autocomplete="off" data-ajax-begin="onFormSubmitBegin"
+                  data-ajax-complete="onFormSubmitComplete" data-ajax-failure="onFormFailure"
+                  data-ajax-success="onFormSuccess" data-ajax="true" data-ajax-method="post" enctype="multipart/form-data">
+                <input asp-for="Id" hidden />
+                <input asp-for="CreatedBy" hidden />
+                <input asp-for="CreatedDateTime" hidden />
+                <input asp-for="CompanyId" hidden />
+                <input asp-for="Sno" hidden />
+                <div class="row">
+                    <div class="form-group col-md-3">
+                        <label asp-for="LeadOwnerId" class="form-control-label">Lead Owner <span class="text-danger">*</span></label>
+                        <select asp-for="LeadOwnerId" class="form-control">
+                            @if (ViewBag.user != null)
+                            {
+                                foreach (var rec in ViewBag.user)
+                                {
+                                    <option value="@rec.Id">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="LeadOwnerId" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="BIN">BIN <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="BIN" class="form-control" />
+                        <span asp-validation-for="BIN" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="snoto">Serial To <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="snoto" class="form-control" />
+                        <span asp-validation-for="snoto" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="SnoFrom">Serial From <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="SnoFrom" class="form-control" />
+                        <span asp-validation-for="SnoFrom" class="text-danger pull-left"></span>
+                    </div>
+                </div>
+                <div class="form-group text-right">
+                    @if (ViewBag.PageType != EnumPageType.View)
+                    {
+                        <button class="btn btn-primary" type="submit">Save</button>
+                    }
+                    <a id="@(ViewBag.PageType != "View" ? "btnCancel" : "btnView")" class="btn btn-secondary" href="/@ViewBag.ControllerURL">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

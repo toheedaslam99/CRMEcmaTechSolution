@@ -1,0 +1,169 @@
+﻿@model Leads
+@using static ElectriCore.Helpers.ApplicationHelper
+@section InLineScriptSection{
+    <script type="text/javascript">
+        @if (ViewBag.PageType == EnumPageType.View)
+        {
+            @:DisableView();
+        }
+    </script>
+}
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <form asp-controller="@ViewBag.ControllerURL" asp-action="save" autocomplete="off" data-ajax-begin="onFormSubmitBegin"
+                  data-ajax-complete="onFormSubmitComplete" data-ajax-failure="onFormFailure"
+                  data-ajax-success="onFormSuccess" data-ajax="true" data-ajax-method="post" enctype="multipart/form-data">
+                <input asp-for="Id" hidden />
+                <input asp-for="CreatedBy" hidden />
+                <input asp-for="CreatedDateTime" hidden />
+                <input asp-for="CompanyId" hidden />
+                <input asp-for="Sno" hidden />
+                <div class="row">
+                    <div class="form-group col-md-3">
+                        <label asp-for="LeadOwnerId" class="form-control-label">Lead Owner <span class="text-danger">*</span></label>
+                        <select asp-for="LeadOwnerId" class="form-control">
+                            @if (ViewBag.user != null)
+                            {
+                                foreach (var rec in ViewBag.user)
+                                {
+                                    <option value="@rec.Id">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="LeadOwnerId" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="FirstName">First Name <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="FirstName" class="form-control" />
+                        <span asp-validation-for="FirstName" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="LastName">Last Name <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="LastName" class="form-control" />
+                        <span asp-validation-for="LastName" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="HomePhone">Home Phone <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="HomePhone" class="form-control" />
+                        <span asp-validation-for="HomePhone" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="OtherPhone">Other Phone <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="OtherPhone" class="form-control" />
+                        <span asp-validation-for="OtherPhone" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="MobileNo">Mobile No <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="MobileNo" class="form-control" />
+                        <span asp-validation-for="MobileNo" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="Email">Email <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="SecondaryEmail">Secondary Email <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="SecondaryEmail" class="form-control" />
+                        <span asp-validation-for="SecondaryEmail" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="SSN">Social Security No  <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="SSN" class="form-control" />
+                        <span asp-validation-for="SSN" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="BIN">BIN <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="BIN" class="form-control" />
+                        <span asp-validation-for="BIN" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="Bank">Bank <span class="text-danger">*</span></label>
+                        <select asp-for="Bank" class="form-control">
+                            @if (ViewBag.banks != null)
+                            {
+                                foreach (var rec in ViewBag.banks)
+                                {
+                                    <option value="@rec.Name">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="Bank" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="Medicare">Medicare <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="Medicare" class="form-control" />
+                        <span asp-validation-for="Medicare" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="DOB">Date Of Birth <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="DOB" class="form-control" />
+                        <span asp-validation-for="DOB" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="LeadStatus">Lead Status <span class="text-danger">*</span></label>
+                        <select asp-for="LeadStatus" class="form-control">
+                            <option value="@EnumStatus.Enable">@EnumStatus.Enable</option>
+                            <option value="@EnumStatus.Disable">@EnumStatus.Disable</option>
+                        </select>
+                        <span asp-validation-for="LeadStatus" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="CountryId">Country <span class="text-danger">*</span></label>
+                        <select asp-for="CountryId" class="form-control">
+                            @if (ViewBag.country != null)
+                            {
+                                foreach (var rec in ViewBag.country)
+                                {
+                                    <option value="@rec.Id">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="CountryId" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="StateId">State <span class="text-danger">*</span></label>
+                        <select asp-for="StateId" class="form-control">
+                            @if (ViewBag.states != null)
+                            {
+                                foreach (var rec in ViewBag.states)
+                                {
+                                    <option value="@rec.Name">@rec.Name</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="StateId" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="City">City <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="City" class="form-control" />
+                        <span asp-validation-for="City" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label asp-for="ZipCode">Zip Code <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="ZipCode" class="form-control" />
+                        <span asp-validation-for="ZipCode" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="Address">Address <span class="text-danger">*</span></label>
+                        <textarea type="text" asp-for="Address" class="form-control"></textarea>
+                        <span asp-validation-for="Address" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label asp-for="Description">Description <span class="text-danger">*</span></label>
+                        <textarea type="text" asp-for="Description" class="form-control"></textarea>
+                        <span asp-validation-for="Description" class="text-danger pull-left"></span>
+                    </div>
+                </div>
+                <div class="form-group text-right">
+                    @if (ViewBag.PageType != EnumPageType.View)
+                    {
+                        <button class="btn btn-primary" type="submit">Save</button>
+                    }
+                    <a id="@(ViewBag.PageType != "View" ? "btnCancel" : "btnView")" class="btn btn-secondary" href="/@ViewBag.ControllerURL">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

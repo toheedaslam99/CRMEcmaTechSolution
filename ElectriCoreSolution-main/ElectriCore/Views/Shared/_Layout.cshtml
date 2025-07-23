@@ -1,0 +1,160 @@
+﻿@using static ElectriCore.Helpers.ApplicationHelper
+@{ 
+    string logoutURL = ViewBag.WebsiteURL + "home/logout";
+    string profileURL = ViewBag.WebsiteURL + "home/profile";
+    string ProfileImage = (ViewBag.Profile != null ? "/uploads/UserProfileFilePath/" + ViewBag.Profile : "/images/faces/1.jpg");
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/x-icon" href="/images/logoE.png">
+    <title>@ViewBag.WebsiteName</title>
+    <environment>
+        <link href="~/css/themes/lite-purple.min.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/fonts/google_font.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/css/plugins/perfect-scrollbar.min.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/css/plugins/datatables.min.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/css/plugins/toastr.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/css/plugins/sweetalert2.min.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/treeview/style.min.css" rel="stylesheet" asp-append-version="true" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" asp-append-version="true">
+        <link href="~/css/plugins/select2.min.css" rel="stylesheet" asp-append-version="true" />
+    </environment>
+    @if (IsSectionDefined("LinkStyleSection"))
+    {
+@RenderSection("LinkStyleSection");
+}
+    @if (IsSectionDefined("InLineStyleSection"))
+    {
+@RenderSection("InLineStyleSection");
+}
+</head>
+
+<body class="text-left">
+    <div class="app-admin-wrap layout-sidebar-large">
+        <div class="main-header">
+            <div class="logo">
+                <img src="~/images/logoE.png">
+            </div>
+            <div class="menu-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div style="margin: auto"></div>
+            <div class="header-part-right">
+                <!-- Full screen toggle -->
+                <i class="i-Full-Screen header-icon d-none d-sm-inline-block" data-fullscreen></i>
+                <!-- Grid menu Dropdown -->
+                <!-- Notificaiton -->
+                <div class="dropdown">
+                    <div class="badge-top-container" role="button" id="dropdownNotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="badge badge-primary">43</span>
+                        <i class="i-Bell text-muted header-icon"></i>
+                    </div>
+                    <!-- Notification dropdown -->
+                </div>
+                <!-- Notificaiton End -->
+                <!-- User avatar dropdown -->
+                <div class="dropdown">
+                    <div class="user col align-self-end">
+                        <img src="@ProfileImage" id="userDropdown" alt="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                            <div class="dropdown-header">
+                                <i class="i-Lock-User mr-1"></i> @ViewBag.UserName
+                            </div>
+                            <a class="dropdown-item" href="@profileURL">Account Profile</a>
+                            <a class="dropdown-item" href="@logoutURL">Sign out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @Html.Raw(ViewBag.Menu)
+        <!--<div class="side-content-wrap">
+        <div class="sidebar-left open rtl-ps-none" data-perfect-scrollbar="" data-suppress-scroll-x="true">
+            <ul class="navigation-left">
+                <li class="nav-item" data-item="uikits">
+                    <a class="nav-item-hold" href="#"><i class="nav-icon i-Library"></i><span class="nav-text">Agreements</span></a>
+                    <div class="triangle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar-left-secondary rtl-ps-none" data-perfect-scrollbar="" data-suppress-scroll-x="true">-->
+        <!-- Submenu Dashboards-->
+        <!--<ul class="childNav" data-parent="uikits">
+                    <li class="nav-item"><a href="@ViewBag.WebsiteURL/agreements/add?q=@Encrypt("Simple Agreement")"><i class="nav-icon i-Bell1"></i><span class="item-name">Simple Agreement</span></a></li>
+                </ul>
+            </div>
+            <div class="sidebar-overlay"></div>
+        </div>-->
+        <!-- =============== Left side End ================-->
+        <div class="main-content-wrap sidenav-open d-flex flex-column">
+            <!-- ============ Body content start ============= -->
+            <div class="main-content">
+                @*<div class="breadcrumb">
+                        <h1 class="mr-2">Version 1</h1>
+                        <ul>
+                            <li><a href="#">Dashboard</a></li>
+                            <li>Version 1</li>
+                        </ul>
+                    </div>
+                    <div class="separator-breadcrumb border-top"></div>*@
+                @Html.Raw(ViewBag.BreadCrumbHTML)
+                @*<div class="spinner-bubble spinner-bubble-primary m-5" id="Loader" style="display: none"></div>*@
+                @RenderBody()
+                <!-- end of main-content -->
+            </div><!-- Footer Start -->
+            <div class="flex-grow-1"></div>
+            <div class="app-footer">
+                <div class="footer-bottom border-top pt-3 d-flex flex-column flex-sm-row align-items-center">
+                    <span class="flex-grow-1"></span>
+                    <div class="d-flex align-items-center">
+                        @*<img class="logo" src="~/images/logo.png" alt="">*@
+                        <div>
+                            <p class="m-0">&copy; @DateTime.Now.Year Ecma Tech Solutions All rights reserved</p>
+                            @*<p class="m-0">All rights reserved</p>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fotter end -->
+        </div>
+    </div>
+    <environment>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="~/js/plugins/toastr.min.js" asp-append-version="true"></script>
+    <script src="~/js/scripts/toastr.script.min.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js" asp-append-version="true"></script>
+    <script src="~/js/plugins/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    <script src="~/js/plugins/perfect-scrollbar.min.js" asp-append-version="true"></script>
+    <script src="~/js/scripts/script.min.js" asp-append-version="true"></script>
+    <script src="~/js/scripts/sidebar.large.script.min.js" asp-append-version="true"></script>
+    <script src="~/js/plugins/echarts.min.js" asp-append-version="true"></script>
+    <script src="~/js/scripts/echart.options.min.js" asp-append-version="true"></script>
+    <script src="~/js/scripts/dashboard.v1.script.min.js" asp-append-version="true"></script>
+    <script src="~/js/plugins/sweetalert2.min.js" asp-append-version="true"></script>
+    <script src="~/js/scripts/sweetalert.script.min.js" asp-append-version="true"></script>
+    <script src="~/js/plugins/datatables.min.js" asp-append-version="true"></script>
+    <script src="~/js/scripts/datatables.script.min.js" asp-append-version="true"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/js/plugins/parsley.min.js" type="text/javascript" asp-append-version="true"></script>
+    <script src="~/treeview/jstree.min.js" asp-append-version="true"></script>
+    <script src="~/js/input-mask.js" asp-append-version="true"></script>
+    <script src="~/js/plugins/select2.min.js" asp-append-version="true"></script>
+    </environment>
+    @if (IsSectionDefined("LinkScriptSection"))
+    {
+        @RenderSection("LinkScriptSection");
+}
+    @if (IsSectionDefined("InLineScriptSection"))
+    {
+@RenderSection("InLineScriptSection");
+}
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿﻿<form method="post" enctype="multipart/form-data">
+    <div class="row">
+        <label>Select File</label>
+        <input class="form-control" type="file" name="file" />
+    </div>
+    <div class="row" style="padding-top: 10px;">
+        <div class="col-3">
+            <input type="submit" asp-controller="Home" asp-action="UploadFileReader" class="btn btn-primary" value="Upload Excel File" />
+        </div>
+    </div>
+</form>
+
+@if (ViewBag.ExcelData != null)
+{
+    <table class="display table table-striped table-hover table-bordered datatable" style="width:100%">
+        <thead>
+            <tr>
+                <th>S No</th>
+                <th>Name</th>
+                <th>Number</th>
+                <th>Email</th>
+                <th>SSN</th>
+                <th>Bin</th>
+                <th>Bank</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Address</th>
+                <th>ZipCode</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.ExcelData as List<Leads>)
+            {
+                <tr>
+                    <td>@item.Sno</td>
+                    <td>@item.FirstName @item.LastName</td>
+                    <td>@item.HomePhone / @item.OtherPhone / @item.MobileNo</td>
+                    <td>@item.Email / @item.SecondaryEmail</td>
+                    <td>@item.SSN</td>
+                    <td>@item.BIN</td>
+                    <td>@item.Bank</td>
+                    <td>@item.StateId</td>
+                    <td>@item.City</td>
+                    <td>@item.Address</td>
+                    <td>@item.ZipCode</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

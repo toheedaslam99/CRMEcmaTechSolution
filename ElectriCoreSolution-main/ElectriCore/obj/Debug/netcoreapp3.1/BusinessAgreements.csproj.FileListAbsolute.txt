@@ -1,0 +1,1279 @@
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\libman.json
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.exe
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.deps.json
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.runtimeconfig.json
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.runtimeconfig.dev.json
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.pdb
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Primitives.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.Views.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.Views.pdb
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\WebOptimizer.Core.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\NUglify.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.csproj.AssemblyReference.cache
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.GeneratedMSBuildEditorConfig.editorconfig
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.AssemblyInfoInputs.cache
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.AssemblyInfo.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.csproj.CoreCompileInputs.cache
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.MvcApplicationPartsAssemblyInfo.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.MvcApplicationPartsAssemblyInfo.cache
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorAssemblyInfo.cache
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorAssemblyInfo.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\staticwebassets\BusinessAgreements.StaticWebAssets.Manifest.cache
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\staticwebassets\BusinessAgreements.StaticWebAssets.xml
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\scopedcss\bundle\BusinessAgreements.styles.css
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.TagHelpers.input.cache
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.TagHelpers.output.cache
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorCoreGenerate.cache
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Agreements\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Agreements\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\AgreementToSells\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\AgreementToSells\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\AgreementToSells\View.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\BusinessRegistrations\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\BusinessRegistrations\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\BuyBackAgreements\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\BuyBackAgreements\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\BuyBackAgreements\View.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ChartOfAccounts\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ChequeAgreements\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ChequeAgreements\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ChequeAgreements\View.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Cities\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Cities\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Countries\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Countries\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Expenses\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Expenses\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\FileAgreements\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\FileAgreements\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\FileAgreements\View.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Home\Profile.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Home\UnAuthorized.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\HttpHandler\HttpUnAuthorized.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Leaders\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Leaders\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Leads\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Leads\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Menus\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Menus\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\RentAgreements\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\RentAgreements\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\RentAgreements\View.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Revenues\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Revenues\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\JsScript.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ShopAgreements\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ShopAgreements\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ShopAgreements\View.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\SimpleAgreements\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\SimpleAgreements\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\SimpleAgreements\View.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\States\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\States\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Users\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Vendors\Form.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Vendors\Index.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorTargetAssemblyInfo.cache
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorTargetAssemblyInfo.cs
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.Views.pdb
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.csproj.CopyComplete
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.dll
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.pdb
+D:\Business\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.genruntimeconfig.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\libman.json
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.exe
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.deps.json
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.runtimeconfig.json
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.runtimeconfig.dev.json
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.pdb
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Memory.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Primitives.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.Views.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.Views.pdb
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\WebOptimizer.Core.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\NUglify.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.csproj.AssemblyReference.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.GeneratedMSBuildEditorConfig.editorconfig
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.AssemblyInfoInputs.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.AssemblyInfo.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.csproj.CoreCompileInputs.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.MvcApplicationPartsAssemblyInfo.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.MvcApplicationPartsAssemblyInfo.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorAssemblyInfo.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorAssemblyInfo.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\staticwebassets\BusinessAgreements.StaticWebAssets.Manifest.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\staticwebassets\BusinessAgreements.StaticWebAssets.xml
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\scopedcss\bundle\BusinessAgreements.styles.css
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.TagHelpers.input.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.TagHelpers.output.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorCoreGenerate.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Agreements\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Agreements\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\AgreementToSells\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\AgreementToSells\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\AgreementToSells\View.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\BusinessRegistrations\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\BusinessRegistrations\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\BuyBackAgreements\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\BuyBackAgreements\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\BuyBackAgreements\View.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ChartOfAccounts\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ChequeAgreements\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ChequeAgreements\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ChequeAgreements\View.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Cities\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Cities\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Countries\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Countries\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Expenses\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Expenses\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\FileAgreements\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\FileAgreements\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\FileAgreements\View.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Home\Profile.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Home\UnAuthorized.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\HttpHandler\HttpUnAuthorized.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Leaders\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Leaders\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Leads\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Leads\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Menus\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Menus\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\RentAgreements\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\RentAgreements\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\RentAgreements\View.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Revenues\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Revenues\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\JsScript.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ShopAgreements\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ShopAgreements\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ShopAgreements\View.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\SimpleAgreements\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\SimpleAgreements\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\SimpleAgreements\View.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\States\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\States\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Users\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Vendors\Form.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Vendors\Index.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorTargetAssemblyInfo.cache
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorTargetAssemblyInfo.cs
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.Views.pdb
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.csproj.CopyComplete
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.dll
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.pdb
+E:\Updated 25-May-2-23\BusinessAgreements-master\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.genruntimeconfig.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.csproj.AssemblyReference.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.AssemblyInfoInputs.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.AssemblyInfo.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.csproj.CoreCompileInputs.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.MvcApplicationPartsAssemblyInfo.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.MvcApplicationPartsAssemblyInfo.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorAssemblyInfo.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorAssemblyInfo.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.pdb
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.TagHelpers.input.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.TagHelpers.output.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorCoreGenerate.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\ChartOfAccounts\Index.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Home\Profile.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Home\UnAuthorized.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\HttpHandler\HttpUnAuthorized.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Menus\Form.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Menus\Index.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Form.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Index.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\JsScript.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Users\Form.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorTargetAssemblyInfo.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.RazorTargetAssemblyInfo.cs
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\libman.json
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.StaticWebAssets.xml
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.exe
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.deps.json
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.runtimeconfig.json
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.runtimeconfig.dev.json
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.pdb
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Primitives.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.Views.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\BusinessAgreements.Views.pdb
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\WebOptimizer.Core.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\NUglify.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.Views.pdb
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\staticwebassets\BusinessAgreements.StaticWebAssets.Manifest.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\staticwebassets\BusinessAgreements.StaticWebAssets.Pack.cache
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.BusinessAgreements.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.BusinessAgreements.props
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.BusinessAgreements.props
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.BusinessAgreements.props
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\Business.817A89BA.Up2Date
+D:\Github\BusinessAgreements-main\BusinessAgreements\obj\Debug\netcoreapp3.1\BusinessAgreements.genruntimeconfig.cache

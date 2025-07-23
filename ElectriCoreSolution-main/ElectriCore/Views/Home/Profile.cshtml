@@ -1,0 +1,67 @@
+﻿@model Users
+@using static ElectriCore.Helpers.ApplicationHelper
+@{ 
+    string ProfileImage = Model.ProfileImage != null ? "/uploads/UserProfileFilePath/" + Model.ProfileImage : "/images/faces/1.jpg";
+}
+<div class="col-md-12">
+    <div class="card user-profile o-hidden mb-4">
+        <div class="card-header">
+            <h4>Profile</h4>
+        </div>
+        <div class="user-info">
+            <img class="profile-picture avatar-lg mb-2" src="@ProfileImage" alt="Profile" />
+            <p class="m-0 text-24">@Model.Name</p>
+        </div>
+        <div class="card-body">
+            <form asp-controller="home" asp-action="save" autocomplete="off" data-ajax-begin="onFormSubmitBegin"
+                  data-ajax-complete="onFormSubmitComplete" data-ajax-failure="onFormFailure"
+                  data-ajax-success="onFormSuccess" data-ajax="true" data-ajax-method="post" enctype="multipart/form-data">
+                <input asp-for="Id" hidden />
+                <input asp-for="CreatedBy" hidden />
+                <input asp-for="CreatedDateTime" hidden />
+                <input asp-for="Username" hidden />
+                <input asp-for="ProfileImage" hidden />
+                <input asp-for="RoleId" hidden />
+                <input asp-for="Status" hidden />
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <label asp-for="Name">Name <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label>Username <span class="text-danger">*</span></label>
+                        <input type="text" value="@Model.Username" class="form-control" disabled />
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="EmailAddress">Email Address <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="EmailAddress" class="form-control" />
+                        <span asp-validation-for="EmailAddress" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="Password">Password <span class="text-danger">*</span></label>
+                        <div class="input-group">
+                            <input class="form-control form-control" asp-for="Password" type="password" value="@(Model.Password != null ? Decrypt(Model.Password) : "")" required aria-describedby="show_loginpassword">
+                            <div class="input-group-append">
+                                <a href="javascript:;" class="input-group-text" id="show_loginpassword" onclick="ShowPassword($('#Password'),this)">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger pull-left"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="Profile">Profile Image <span class="text-danger">*</span></label>
+                        <input type="file" asp-for="Profile" class="form-control" />
+                        <span asp-validation-for="Profile" class="text-danger pull-left"></span>
+                    </div>
+                </div>
+                <div class="form-group text-right">
+                    <button class="btn btn-primary" type="submit">Save</button>
+                    @{string BackURL = ViewBag.WebsiteURL + "home";} 
+                    <a id="@(ViewBag.PageType != "View" ? "btnCancel" : "btnView")" class="btn btn-secondary" href="@BackURL">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

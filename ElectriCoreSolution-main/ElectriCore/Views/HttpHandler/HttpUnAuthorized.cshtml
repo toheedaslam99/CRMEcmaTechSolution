@@ -1,0 +1,19 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewBag.WebsiteName</title>
+    <link href="~/fonts/google_font.css" rel="stylesheet">
+    <link href="~/css/themes/lite-purple.min.css" rel="stylesheet">
+</head>
+<div class="not-found-wrap text-center">
+    <h1 class="text-60">404</h1>
+    <p class="text-36 subheading mb-3">Access UnAuthorized!</p>
+    <p class="mb-5 text-muted text-18">Sorry, you don't have access to this page, please contact your admin, thank you.</p><a class="btn btn-lg btn-primary btn-rounded" href="@ViewBag.WebsiteURL">Go back to home</a>
+</div>
