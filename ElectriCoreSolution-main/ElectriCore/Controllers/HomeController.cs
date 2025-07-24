@@ -27,8 +27,8 @@ namespace ElectriCore.Controllers
         public IActionResult Index()
         {
             UserSession UserRecord = GetUserData(this);
-            ViewBag.Leads = dbContext.Leads.Where(x => x.CompanyId == UserRecord.CompanyId && x.LeadOwnerId == UserRecord.UserId && x.LeadStatus == "Call Back").OrderByDescending(x => x.Id).Take(10);
-            ViewBag.L = dbContext.Leads.Where(x => x.CompanyId == UserRecord.CompanyId && x.LeadOwnerId == UserRecord.UserId && x.LeadStatus == "Call Back").Count();
+            ViewBag.Leads = dbContext.Leads.Where(x => x.CompanyId == UserRecord.CompanyId && x.LeadOwnerId == UserRecord.UserId).OrderByDescending(x => x.Id).Take(10);
+            ViewBag.L = dbContext.Leads.Where(x => x.CompanyId == UserRecord.CompanyId && x.LeadOwnerId == UserRecord.UserId).Count();
             ViewBag.LCB = dbContext.Leads.Where(x => x.CompanyId == UserRecord.CompanyId && x.LeadOwnerId == UserRecord.UserId).Count();
             ViewBag.C = dbContext.Customer.Where(x => x.CompanyId == UserRecord.CompanyId).Count();
             ViewBag.Company = dbContext.Company.FirstOrDefault(x => x.Id == UserRecord.CompanyId);
@@ -96,8 +96,8 @@ namespace ElectriCore.Controllers
                         modelRecord.Password = Encrypt(modelRecord.Password);
                         modelRecord.UpdatedDateTime = GetDateTime(ApplicationHelper.TimeZone);
                         modelRecord.UpdatedBy = UserRecord.UserId;
-                        dbContext.Users.Update(modelRecord);
-                        dbContext.SaveChanges();
+                        //dbContext.Users.Update(modelRecord);
+                        //dbContext.SaveChanges();
                         ajaxResponse.Type = EnumJQueryResponseType.MessageAndRedirectWithDelay;
                         ajaxResponse.TargetURL = ViewBag.WebsiteURL + "home/profile";
                         ajaxResponse.Message = "Profile Updated Successfully";
@@ -174,7 +174,7 @@ namespace ElectriCore.Controllers
                                 LeadOwnerId = parsedId;
                             }
                             int CompanyId = 0;
-                            var CompanyIdcellValue = reader.GetValue(19)?.ToString();
+                            var CompanyIdcellValue = reader.GetValue(16)?.ToString();
 
                             if (int.TryParse(CompanyIdcellValue, out int CompanyIdparsedId))
                             {
@@ -193,24 +193,15 @@ namespace ElectriCore.Controllers
                                 SSN = reader.GetValue(8)?.ToString(),
                                 BIN = reader.GetValue(9)?.ToString(),
                                 Bank = reader.GetValue(10)?.ToString(),
-                                Medicare = reader.GetValue(11)?.ToString(),
-                                DOB = reader.GetValue(12)?.ToString(),
-                                LeadStatus = reader.GetValue(13)?.ToString(),
-                                CountryId = 1,
-                                City = reader.GetValue(15)?.ToString(),
-                                Address = reader.GetValue(16)?.ToString(),
-                                ZipCode = reader.GetValue(17)?.ToString(),
-                                Description = reader.GetValue(18)?.ToString(),
+                                DOB = reader.GetValue(11)?.ToString(),
+                                City = reader.GetValue(12)?.ToString(),
+                                Address = reader.GetValue(13)?.ToString(),
+                                ZipCode = reader.GetValue(14)?.ToString(),
+                                Description = reader.GetValue(15)?.ToString(),
                                 CompanyId = CompanyId,
-                                IsDeleted = false,
-                                CreatedDateTime = DateTime.Now,
-                                UpdatedDateTime = DateTime.Now,
-                                DeletedDateTime = DateTime.Now,
-                                CreatedBy = UserRecord.UserId,
-                                UpdatedBy = UserRecord.UserId,
-                                DeletedBy = UserRecord.UserId,
-                                StateId = reader.GetValue(27)?.ToString(),
-                                Sno = reader.GetValue(28)?.ToString()
+                                StateId = reader.GetValue(17)?.ToString(),
+                                Sno = reader.GetValue(18)?.ToString(),
+                                Country = reader.GetValue(19)?.ToString(),
                             };
 
                             Records.Add(lead);

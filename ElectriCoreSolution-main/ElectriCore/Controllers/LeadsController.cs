@@ -17,7 +17,6 @@ namespace ElectriCore.Controllers
         {
             UserSession UserRecord = GetUserData(this);
             ViewBag.user = dbContext.Users.Where(x => x.CompanyId == UserRecord.CompanyId && x.Status ==  EnumStatus.Enable && x.Id == UserRecord.UserId).ToList();
-            ViewBag.country = dbContext.Country.ToList();
             ViewBag.states = dbContext.State.ToList();
             ViewBag.banks = dbContext.Bank.ToList();
         }
@@ -40,7 +39,7 @@ namespace ElectriCore.Controllers
                 int pageSize = length != null ? Convert.ToInt32(length) : 0;
                 int skip = start != null ? Convert.ToInt32(start) : 0;
                 int recordsTotal = 0;
-                var recordResult = (from x in dbContext.Leads.Where(x => UserRecord.CompanyId == x.CompanyId && x.IsDeleted == false && x.LeadOwnerId == UserRecord.UserId) select x);
+                var recordResult = (from x in dbContext.Leads.Where(x => UserRecord.CompanyId == x.CompanyId && x.LeadOwnerId == UserRecord.UserId).OrderByDescending(x => x.Id) select x);
                 if (!string.IsNullOrEmpty(sortColumn) || string.IsNullOrEmpty(sortColumnDirection))
                 {
                     recordResult = recordResult.OrderBy(sortColumn + " " + sortColumnDirection);
@@ -51,23 +50,25 @@ namespace ElectriCore.Controllers
                                                 || m.LastName.Contains(searchValue)
                                                 || m.HomePhone.Contains(searchValue)
                                                 || m.MobileNo.Contains(searchValue)
-                                                || m.BIN.Contains(searchValue) && !m.IsDeleted);
+                                                || m.BIN.Contains(searchValue));
                 }
-                recordsTotal = recordResult.Count(x => !x.IsDeleted);
+                recordsTotal = recordResult.Count();
                 var data = recordResult.Skip(skip).Take(pageSize).ToList();
-                var resultData = from x in data.Where(x => !x.IsDeleted)
+                var resultData = from x in data
                                  select new
                                  {
                                      x.Id,
                                      x.Sno,
                                      name = x.FirstName + " " + x.LastName,
-                                     num = x.HomePhone + "/" + x.MobileNo + "/" + x.OtherPhone,
-                                     x.DOB,
-                                     x.Bank,
-                                     state = x.StateId,
+                                     x.Address,
                                      x.City,
+                                     state = x.StateId,
                                      x.ZipCode,
-                                     x.Address
+                                     x.Country,
+                                     num = x.HomePhone + "/" + x.MobileNo + "/" + x.OtherPhone,
+                                     x.Email,
+                                     x.BIN,
+                                     x.CardType
                                  };
                 var jsonData = new { draw = draw, recordsFiltered = recordsTotal, recordsTotal = recordsTotal, data = resultData };
                 return Ok(jsonData);
@@ -168,14 +169,10 @@ namespace ElectriCore.Controllers
                         {
                             modelRecord.CompanyId = UserRecord.CompanyId;
                             isRecordWillAdded = true;
-                            modelRecord.CreatedDateTime = GetDateTime(ApplicationHelper.TimeZone);
-                            modelRecord.CreatedBy = UserRecord.UserId;
                             dbContext.Leads.Add(modelRecord);
                         }
                         else
                         {
-                            modelRecord.UpdatedDateTime = GetDateTime(ApplicationHelper.TimeZone);
-                            modelRecord.UpdatedBy = UserRecord.UserId;
                             dbContext.Leads.Update(modelRecord);
                         }
                         dbContext.SaveChanges();

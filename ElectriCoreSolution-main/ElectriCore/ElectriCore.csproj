@@ -26,7 +26,6 @@
     <None Include="Views\Customer\Index.cshtml" />
     <None Include="Views\Company\Form.cshtml" />
     <None Include="Views\Company\Index.cshtml" />
-    <None Include="Views\LeadsCall\Index.cshtml" />
     <None Include="Views\Leads\Form.cshtml" />
     <None Include="Views\Leads\Index.cshtml" />
     <None Include="Views\Users\Form.cshtml" />
@@ -34,6 +33,7 @@
     <None Include="Views\ChartOfAccounts\Index.cshtml" />
     <None Include="Views\ChartOfAccounts\Index.cshtml" />
     <None Include="Views\Home\UploadFileReader.cshtml" />
+    <None Include="Views\LeadsCall\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

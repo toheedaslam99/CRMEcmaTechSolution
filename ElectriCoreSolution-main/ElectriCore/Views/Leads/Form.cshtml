@@ -15,8 +15,6 @@
                   data-ajax-complete="onFormSubmitComplete" data-ajax-failure="onFormFailure"
                   data-ajax-success="onFormSuccess" data-ajax="true" data-ajax-method="post" enctype="multipart/form-data">
                 <input asp-for="Id" hidden />
-                <input asp-for="CreatedBy" hidden />
-                <input asp-for="CreatedDateTime" hidden />
                 <input asp-for="CompanyId" hidden />
                 <input asp-for="Sno" hidden />
                 <div class="row">
@@ -80,21 +78,13 @@
                     </div>
                     <div class="form-group col-md-3">
                         <label asp-for="Bank">Bank <span class="text-danger">*</span></label>
-                        <select asp-for="Bank" class="form-control">
-                            @if (ViewBag.banks != null)
-                            {
-                                foreach (var rec in ViewBag.banks)
-                                {
-                                    <option value="@rec.Name">@rec.Name</option>
-                                }
-                            }
-                        </select>
+                        <input type="text" asp-for="Bank" class="form-control" />
                         <span asp-validation-for="Bank" class="text-danger pull-left"></span>
                     </div>
                     <div class="form-group col-md-3">
-                        <label asp-for="Medicare">Medicare <span class="text-danger">*</span></label>
-                        <input type="text" asp-for="Medicare" class="form-control" />
-                        <span asp-validation-for="Medicare" class="text-danger pull-left"></span>
+                        <label asp-for="CardType">Card Type <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="CardType" class="form-control" />
+                        <span asp-validation-for="CardType" class="text-danger pull-left"></span>
                     </div>
                     <div class="form-group col-md-3">
                         <label asp-for="DOB">Date Of Birth <span class="text-danger">*</span></label>
@@ -102,37 +92,13 @@
                         <span asp-validation-for="DOB" class="text-danger pull-left"></span>
                     </div>
                     <div class="form-group col-md-3">
-                        <label asp-for="LeadStatus">Lead Status <span class="text-danger">*</span></label>
-                        <select asp-for="LeadStatus" class="form-control">
-                            <option value="@EnumStatus.Enable">@EnumStatus.Enable</option>
-                            <option value="@EnumStatus.Disable">@EnumStatus.Disable</option>
-                        </select>
-                        <span asp-validation-for="LeadStatus" class="text-danger pull-left"></span>
-                    </div>
-                    <div class="form-group col-md-3">
-                        <label asp-for="CountryId">Country <span class="text-danger">*</span></label>
-                        <select asp-for="CountryId" class="form-control">
-                            @if (ViewBag.country != null)
-                            {
-                                foreach (var rec in ViewBag.country)
-                                {
-                                    <option value="@rec.Id">@rec.Name</option>
-                                }
-                            }
-                        </select>
-                        <span asp-validation-for="CountryId" class="text-danger pull-left"></span>
+                        <label asp-for="Country">Country <span class="text-danger">*</span></label>
+                        <input type="text" asp-for="Country" class="form-control" />
+                        <span asp-validation-for="Country" class="text-danger pull-left"></span>
                     </div>
                     <div class="form-group col-md-3">
                         <label asp-for="StateId">State <span class="text-danger">*</span></label>
-                        <select asp-for="StateId" class="form-control">
-                            @if (ViewBag.states != null)
-                            {
-                                foreach (var rec in ViewBag.states)
-                                {
-                                    <option value="@rec.Name">@rec.Name</option>
-                                }
-                            }
-                        </select>
+                        <input type="text" asp-for="StateId" class="form-control" />
                         <span asp-validation-for="StateId" class="text-danger pull-left"></span>
                     </div>
                     <div class="form-group col-md-3">
@@ -145,7 +111,7 @@
                         <input type="text" asp-for="ZipCode" class="form-control" />
                         <span asp-validation-for="ZipCode" class="text-danger pull-left"></span>
                     </div>
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-9">
                         <label asp-for="Address">Address <span class="text-danger">*</span></label>
                         <textarea type="text" asp-for="Address" class="form-control"></textarea>
                         <span asp-validation-for="Address" class="text-danger pull-left"></span>

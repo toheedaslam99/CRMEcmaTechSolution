@@ -15,13 +15,13 @@ namespace ElectriCore.Models
         public string SSN { get; set; }
         public string Email { get; set; }
         public string SecondaryEmail { get; set; }
-        public int CountryId { get; set; }
+        public string CountryId { get; set; }
         public string City { get; set; }
         public string StateId { get; set; }
         public string Address { get; set; }
         public string ZipCode { get; set; }
-        public int MailingCountryId { get; set; }
-        public int MailingStateId { get; set; }
+        public string MailingCountryId { get; set; }
+        public string MailingStateId { get; set; }
         public string MailingCity { get; set; }
         public string MailingAddress { get; set; }
         public string MailingZipCode { get; set; }

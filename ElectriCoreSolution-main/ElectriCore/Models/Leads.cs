@@ -18,26 +18,16 @@ namespace ElectriCore.Models
         public string SSN { get; set; }
         public string BIN { get; set; }
         public string Bank { get; set; }
-        public string Medicare { get; set; }
         public string DOB { get; set; }
-        public string LeadStatus { get; set; }
-        public int CountryId { get; set; }
         public string StateId { get; set; }
         public string City { get; set; }
         public string Address { get; set; }
         public string ZipCode { get; set; }
         public string Description { get; set; }
+        public string Country { get; set; }
+        public string CardType { get; set; }
         public int CompanyId { get; set; }
-        //public string Status { get; set; }
-        public bool IsDeleted { get; set; }
-        public DateTime CreatedDateTime { get; set; }
-        public DateTime? UpdatedDateTime { get; set; }
-        public DateTime? DeletedDateTime { get; set; }
-        public int CreatedBy { get; set; }
-        public int? UpdatedBy { get; set; }
-        public int? DeletedBy { get; set; }
 
         public virtual Users LeadOwner { get; set; }
-        public virtual Country Country { get; set; }
     }
 }

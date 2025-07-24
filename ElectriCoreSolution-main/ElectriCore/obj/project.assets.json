@@ -8163,11 +8163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CRM\\ElectriCoreSolution-main\\ElectriCore\\ElectriCore.csproj",
+      "projectUniqueName": "C:\\Users\\Toheed Aslam\\Desktop\\CRMEcmaTechSolution-main (1)\\CRMEcmaTechSolution-main\\ElectriCoreSolution-main\\ElectriCore\\ElectriCore.csproj",
       "projectName": "ElectriCore",
-      "projectPath": "D:\\CRM\\ElectriCoreSolution-main\\ElectriCore\\ElectriCore.csproj",
+      "projectPath": "C:\\Users\\Toheed Aslam\\Desktop\\CRMEcmaTechSolution-main (1)\\CRMEcmaTechSolution-main\\ElectriCoreSolution-main\\ElectriCore\\ElectriCore.csproj",
       "packagesPath": "C:\\Users\\Toheed Aslam\\.nuget\\packages\\",
-      "outputPath": "D:\\CRM\\ElectriCoreSolution-main\\ElectriCore\\obj\\",
+      "outputPath": "C:\\Users\\Toheed Aslam\\Desktop\\CRMEcmaTechSolution-main (1)\\CRMEcmaTechSolution-main\\ElectriCoreSolution-main\\ElectriCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

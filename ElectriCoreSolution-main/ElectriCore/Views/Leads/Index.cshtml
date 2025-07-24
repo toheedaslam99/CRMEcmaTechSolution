@@ -1,16 +1,18 @@
 ﻿@{ string DataTableColumns =
                 "{ \"data\": \"id\",\"searchable\": false,\"bSortable\": true,\"bVisible\": false}," +
                     "{ \"data\": \"sno\"}," +
-                    "{ \"data\": \"name\"}," +
-                        "{ \"data\": \"num\"}," +
-                        "{ \"data\": \"dob\"}," +
-                        "{ \"data\": \"bank\"}," +
-                        "{ \"data\": \"state\"}," +
-                    "{ \"data\": \"city\"}," +
-                        "{ \"data\": \"zipCode\"}," +
-                    "{ \"data\": \"address\"}";
+                            "{ \"data\": \"name\"}," +
+                        "{ \"data\": \"address\"}," +
+                        "{ \"data\": \"city\"}," +
+                            "{ \"data\": \"state\"}," +
+                            "{ \"data\": \"zipCode\"}," +
+                            "{ \"data\": \"country\"}," +
+                            "{ \"data\": \"num\"}," +
+                        "{ \"data\": \"email\"}," +
+                        "{ \"data\": \"bin\"}," +
+                        "{ \"data\": \"cardType\"}";
 
-                ViewBag.DataTableActionColumn = "9";
+                ViewBag.DataTableActionColumn = "11";
                 DataTableColumns += ",{ \"data\": \"id\",\"searchable\": false,\"bSortable\": false}";
                 ViewBag.DataTableColumns = DataTableColumns; }
 @section InLineScriptSection{
@@ -27,13 +29,15 @@
                             <th></th>
                             <th>S No</th>
                             <th>Name</th>
-                            <th>Number</th>
-                            <th>DOB</th>
-                            <th>Bank</th>
-                            <th>State</th>
-                            <th>City</th>
-                            <th>Zip</th>
                             <th>Address</th>
+                            <th>City</th>
+                            <th>State</th>
+                            <th>Zip Code</th>
+                            <th>Country</th>
+                            <th>Number</th>
+                            <th>Email</th>
+                            <th>Bin</th>
+                            <th>Card Type</th>
                             @if (ViewBag.DataTableActionColumn != null)
                             {
                                 <th data-priority="2">Actions</th>

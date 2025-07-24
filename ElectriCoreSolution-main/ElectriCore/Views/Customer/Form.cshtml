@@ -51,11 +51,6 @@
                         <span asp-validation-for="SSN" class="text-danger pull-left"></span>
                     </div>
                     <div class="form-group col-md-2">
-                        <label asp-for="Medicare">Medicare <span class="text-danger">*</span></label>
-                        <input type="text" asp-for="Medicare" class="form-control" />
-                        <span asp-validation-for="Medicare" class="text-danger pull-left"></span>
-                    </div>
-                    <div class="form-group col-md-2">
                         <label asp-for="DOB">Date of Birth <span class="text-danger">*</span></label>
                         <input type="text" asp-for="DOB" class="form-control" />
                         <span asp-validation-for="DOB" class="text-danger pull-left"></span>
@@ -72,28 +67,12 @@
                     </div>
                     <div class="form-group col-md-2">
                         <label asp-for="CountryId">Country <span class="text-danger">*</span></label>
-                        <select asp-for="CountryId" class="form-control">
-                            @if (ViewBag.country != null)
-                            {
-                                foreach (var rec in ViewBag.country)
-                                {
-                                    <option value="@rec.Id">@rec.Name</option>
-                                }
-                            }
-                        </select>
+                        <input type="text" asp-for="CountryId" class="form-control" />
                         <span asp-validation-for="CountryId" class="text-danger pull-left"></span>
                     </div>
                     <div class="form-group col-md-2">
                         <label asp-for="StateId">State <span class="text-danger">*</span></label>
-                        <select asp-for="StateId" class="form-control">
-                            @if (ViewBag.states != null)
-                            {
-                                foreach (var rec in ViewBag.states)
-                                {
-                                    <option value="@rec.Name">@rec.Name</option>
-                                }
-                            }
-                        </select>
+                        <input type="text" asp-for="StateId" class="form-control" />
                         <span asp-validation-for="StateId" class="text-danger pull-left"></span>
                     </div>
                     <div class="form-group col-md-2">
@@ -148,7 +127,7 @@
                         </select>
                         <span asp-validation-for="LeadStatus" class="text-danger pull-left"></span>
                     </div>
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-8">
                         <label asp-for="Description">Description <span class="text-danger">*</span></label>
                         <textarea type="text" asp-for="Description" class="form-control"></textarea>
                         <span asp-validation-for="Description" class="text-danger pull-left"></span>
@@ -172,28 +151,12 @@
                                         <div class="row">
                                             <div class="form-group col-md-2">
                                                 <label asp-for="MailingCountryId">Mailing Country <span class="text-danger">*</span></label>
-                                                <select asp-for="MailingCountryId" class="form-control">
-                                                    @if (ViewBag.country != null)
-                                                    {
-                                                        foreach (var rec in ViewBag.country)
-                                                        {
-                                                            <option value="@rec.Id">@rec.Name</option>
-                                                        }
-                                                    }
-                                                </select>
+                                                <input type="text" asp-for="MailingCountryId" class="form-control" />
                                                 <span asp-validation-for="MailingCountryId" class="text-danger pull-left"></span>
                                             </div>
                                             <div class="form-group col-md-2">
                                                 <label asp-for="MailingStateId">Mailing State <span class="text-danger">*</span></label>
-                                                <select asp-for="MailingStateId" class="form-control">
-                                                    @if (ViewBag.states != null)
-                                                    {
-                                                        foreach (var rec in ViewBag.states)
-                                                        {
-                                                            <option value="@rec.Name">@rec.Name</option>
-                                                        }
-                                                    }
-                                                </select>
+                                                <input type="text" asp-for="MailingStateId" class="form-control" />
                                                 <span asp-validation-for="MailingStateId" class="text-danger pull-left"></span>
                                             </div>
                                             <div class="form-group col-md-2">
